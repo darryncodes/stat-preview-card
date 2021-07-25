@@ -2,7 +2,7 @@
 
 $primary: hsl(233, 47%, 7%);
 $secondary: hsl(244, 38%, 16%);
-$accent: hsl(277, 64%, 61%);
+$accent: #aa5cdb;
 
 //FONT COLORS
 
@@ -14,7 +14,7 @@ $white-3: hsla(0, 0%, 100%, 0.6);
 
 $bp-desktop: 90em; //1440px
 $bp-tablet: 56.25em; //900px
-$bp-mobile: 23.4375em; //375px
+$bp-mobile: 37.5em; //600px
 
 //RESETS & RESPONSIVE FONT SIZES
 
@@ -40,5 +40,41 @@ html {
 }
 
 body {
+    background-color: $primary;
+    height: 100vh;
+
     font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: $white-2;
+
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1,
+h2 {
+    color: $white;
+}
+
+.attribution {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+
+    @media only screen and (max-width: $bp-mobile) {
+        order: 2;
+        font-size: 1.4rem;
+    }
+
+    &__link {
+        color: $white;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
 }

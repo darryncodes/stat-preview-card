@@ -1,0 +1,110 @@
+.card {
+    display: flex;
+    max-width: 100rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+    overflow: hidden;
+
+    @media only screen and (max-width: $bp-mobile) {
+        max-width: 85%;
+        flex-direction: column;
+        text-align: center;
+        order: 2;
+    }
+
+    &__content {
+        max-width: 50%;
+        background-color: $secondary;
+        padding: 5rem;
+
+        @media only screen and (max-width: $bp-mobile) {
+            max-width: 100%;
+            order: 2;
+        }
+    }
+
+    &__heading {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+        width: 85%;
+
+        &--emphasis {
+            color: $accent;
+        }
+
+        @media only screen and (max-width: $bp-mobile) {
+            width: 100%;
+            font-size: 3.5rem;
+        }
+    }
+
+    &__text {
+        margin-bottom: 5rem;
+        width: 90%;
+
+        @media only screen and (max-width: $bp-mobile) {
+            font-size: 2rem;
+            line-height: 1.75;
+            width: 100%;
+        }
+    }
+
+    &__stats {
+        display: flex;
+        justify-content: space-between;
+        max-width: 75%;
+
+        @media only screen and (max-width: $bp-mobile) {
+            flex-direction: column;
+            align-items: center;
+            max-width: 100%;
+        }
+    }
+
+    &__stat-title {
+        margin-bottom: 0.5rem;
+
+        @media only screen and (max-width: $bp-mobile) {
+            font-size: 3.5rem;
+        }
+    }
+
+    &__stat-title:not(:last-child) {
+        @media only screen and (max-width: $bp-mobile) {
+            margin-top: 3rem;
+        }
+    }
+
+    &__stat-info {
+        text-transform: uppercase;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        color: $white-3;
+
+        @media only screen and (max-width: $bp-mobile) {
+            font-size: 1.6rem;
+        }
+    }
+
+    &__image {
+        width: 50%;
+        background-image: linear-gradient(
+                rgba($accent, 0.7),
+                rgba($accent, 0.7)
+            ),
+            url(/img/image-header-desktop.jpg);
+        background-size: cover;
+        background-position: center;
+
+        @media only screen and (max-width: $bp-mobile) {
+            width: 100%;
+            height: 40rem;
+            background-image: linear-gradient(
+                    rgba($accent, 0.7),
+                    rgba($accent, 0.7)
+                ),
+                url(/img/image-header-mobile.jpg);
+            order: 1;
+        }
+    }
+}
