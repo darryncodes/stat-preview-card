@@ -14,7 +14,7 @@ $white-3: hsla(0, 0%, 100%, 0.6);
 
 $bp-desktop: 90em; //1440px
 $bp-tablet: 56.25em; //900px
-$bp-mobile: 37.5em; //600px
+$bp-mobile: 40.625em; //650px
 
 //RESETS & RESPONSIVE FONT SIZES
 
@@ -48,7 +48,7 @@ body {
     font-size: 1.5rem;
     color: $white-2;
 
-    padding: 2rem;
+    padding: 1.5rem;
 
     display: flex;
     flex-direction: column;

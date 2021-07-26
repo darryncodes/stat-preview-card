@@ -15,11 +15,16 @@
     &__content {
         max-width: 50%;
         background-color: $secondary;
-        padding: 5rem;
+        padding: 8rem 5rem;
+
+        @media only screen and (max-width: $bp-tablet) {
+            padding: 5rem;
+        }
 
         @media only screen and (max-width: $bp-mobile) {
-            max-width: 100%;
             order: 2;
+            max-width: 100%;
+            padding: 4rem 3rem;
         }
     }
 
