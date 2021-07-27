@@ -97,7 +97,7 @@
                 rgba($accent, 0.35),
                 rgba($accent, 0.35)
             ),
-            url(/img/image-header-desktop.jpg);
+            url(../img/image-header-desktop.jpg);
         background-size: cover;
         background-position: center;
 
@@ -113,7 +113,7 @@
                     rgba($accent, 0.35),
                     rgba($accent, 0.35)
                 ),
-                url(/img/image-header-mobile.jpg);
+                url(../img/image-header-mobile.jpg);
             order: 1;
         }
     }
