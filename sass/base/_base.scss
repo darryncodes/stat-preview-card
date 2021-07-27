@@ -2,7 +2,7 @@
 
 $primary: hsl(233, 47%, 7%);
 $secondary: hsl(244, 38%, 16%);
-$accent: #aa5cdb;
+$accent: hsl(277, 64%, 61%);
 
 //FONT COLORS
 
@@ -41,13 +41,12 @@ html {
 
 body {
     background-color: $primary;
-    height: 100vh;
-
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
     color: $white-2;
 
+    margin-top: 5rem;
     padding: 1.5rem;
 
     display: flex;
@@ -63,7 +62,7 @@ h2 {
 .attribution {
     text-align: center;
     font-size: 1.2rem;
-    margin-top: 3rem;
+    margin: 5rem 0;
 
     @media only screen and (max-width: $bp-mobile) {
         order: 2;
