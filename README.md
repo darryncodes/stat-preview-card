@@ -47,9 +47,9 @@ Users should be able to:
 -   building re-useable components
 -   honing html, sass and GIT version control skills
 
-I attempted to try art direction responsive images in the HTML markup with the mobile and desktop image. Using <picture> <source> with the 'srceset' and 'media' atrributes. Either i couldn't get it to work or my browser was cached. So this is something to consider in the future. I don't think my image is the right colour of purple using a background image and gradient, i wanted to create a <div> with an overlay.
+I attempted to try art direction responsive images in the HTML markup with the mobile and desktop image. Using <picture> <source> with the 'srceset' and 'media' atrributes. Either i couldn't get it to work or my browser was cached. So this is something to consider in the future. I don't think my image is the right colour of purple using a background image and gradient, i wanted to create a with an overlay.
 
-More info:[CSS TRICKS article](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/)
+More info: [CSS TRICKS article](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/)
 
 ## Author
 
