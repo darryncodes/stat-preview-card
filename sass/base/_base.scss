@@ -46,12 +46,13 @@ body {
     font-size: 1.5rem;
     color: $white-2;
 
-    margin-top: 5rem;
     padding: 1.5rem;
 
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 h1,
