@@ -12,13 +12,11 @@ html {
           box-sizing: border-box;
   font-size: 62.5%;
 }
-
 @media only screen and (max-width: 56.25em) {
   html {
     font-size: 56.25%;
   }
 }
-
 @media only screen and (max-width: 40.625em) {
   html {
     font-size: 50%;
@@ -58,7 +56,6 @@ h2 {
   font-size: 1.2rem;
   margin: 5rem 0;
 }
-
 @media only screen and (max-width: 40.625em) {
   .attribution {
     -webkit-box-ordinal-group: 3;
@@ -67,11 +64,9 @@ h2 {
     font-size: 1.4rem;
   }
 }
-
 .attribution__link {
   color: white;
 }
-
 .attribution__link:hover {
   text-decoration: none;
 }
@@ -85,7 +80,6 @@ h2 {
   border-radius: 1rem;
   overflow: hidden;
 }
-
 @media only screen and (max-width: 40.625em) {
   .card {
     max-width: 85%;
@@ -99,19 +93,16 @@ h2 {
             order: 2;
   }
 }
-
 .card__content {
   max-width: 50%;
   background-color: #1b1938;
   padding: 8rem 5rem;
 }
-
 @media only screen and (max-width: 56.25em) {
   .card__content {
     padding: 5rem;
   }
 }
-
 @media only screen and (max-width: 40.625em) {
   .card__content {
     -webkit-box-ordinal-group: 3;
@@ -121,29 +112,24 @@ h2 {
     padding: 4rem 3rem;
   }
 }
-
 .card__heading {
   font-size: 3rem;
   margin-bottom: 3rem;
   width: 85%;
 }
-
 .card__heading--emphasis {
   color: #aa5cdb;
 }
-
 @media only screen and (max-width: 40.625em) {
   .card__heading {
     width: 100%;
     font-size: 3.5rem;
   }
 }
-
 .card__text {
   margin-bottom: 5rem;
   width: 90%;
 }
-
 @media only screen and (max-width: 40.625em) {
   .card__text {
     font-size: 2rem;
@@ -151,7 +137,6 @@ h2 {
     width: 100%;
   }
 }
-
 .card__stats {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -161,7 +146,6 @@ h2 {
           justify-content: space-between;
   max-width: 75%;
 }
-
 @media only screen and (max-width: 40.625em) {
   .card__stats {
     -webkit-box-orient: vertical;
@@ -174,36 +158,30 @@ h2 {
     max-width: 100%;
   }
 }
-
 .card__stat-title {
   margin-bottom: 0.5rem;
 }
-
 @media only screen and (max-width: 40.625em) {
   .card__stat-title {
     font-size: 3.5rem;
   }
 }
-
 @media only screen and (max-width: 40.625em) {
   .card__stat-title:not(:last-child) {
     margin-top: 3rem;
   }
 }
-
 .card__stat-info {
   text-transform: uppercase;
   font-size: 1rem;
   letter-spacing: 1px;
   color: rgba(255, 255, 255, 0.6);
 }
-
 @media only screen and (max-width: 40.625em) {
   .card__stat-info {
     font-size: 1.6rem;
   }
 }
-
 .card__image {
   width: 50%;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(170, 92, 219, 0.35)), to(rgba(170, 92, 219, 0.35))), url(../img/image-header-desktop.jpg);
@@ -211,7 +189,6 @@ h2 {
   background-size: cover;
   background-position: center;
 }
-
 @media only screen and (max-width: 40.625em) {
   .card__image {
     width: 100%;
@@ -223,7 +200,6 @@ h2 {
             order: 1;
   }
 }
-
 @media only screen and (max-width: 40.625em) and (max-width: 400px) {
   .card__image {
     height: 30rem;

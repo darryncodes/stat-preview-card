@@ -1,3 +1,5 @@
+@use '../base/base' as *;
+
 .card {
     display: flex;
     max-width: 100rem;
